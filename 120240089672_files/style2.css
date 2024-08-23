@@ -1,0 +1,371 @@
+* {
+	padding: 0;
+	margin: 0
+}
+
+img {
+	border: 0;
+}
+
+ul, ol {
+	list-style: none
+}
+
+a {
+	text-decoration: none
+}
+
+.header_dl {
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	color: #848484
+}
+
+.header_dl img {
+	width: 100%
+}
+
+.header_dl .title {
+	position: absolute;
+	top: 9.5%;
+	font-size: 32px;
+	width: 100%;
+	font-weight: 500;
+	color: #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_dl .mc {
+	position: absolute;
+	top: 17.5%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .zjh {
+	position: absolute;
+	top: 25.7%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .mz {
+	position: absolute;
+	top: 34.2%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .lx {
+	position: absolute;
+	top: 42.8%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .zjdm {
+	position: absolute;
+	top: 50.8%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .qsrq {
+	position: absolute;
+	top: 59%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .jzrq {
+	position: absolute;
+	top: 67%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .bm {
+	position: absolute;
+	top: 75.5%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .rq {
+	position: absolute;
+	top: 84%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+.header_dl .zt {
+	position: absolute;
+	top: 92%;
+	left: 4.1%;
+	font-size: 24px;
+}
+
+/*屏幕小于1200px时*/
+@media only screen and (max-width: 1200px) {
+
+	.header_dl .title {
+		position: absolute;
+		top: 9.5%;
+		font-size: 28px;
+		width: 100%;
+		font-weight: 500;
+		color: #000;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header_dl .mc {
+		position: absolute;
+		top: 17.5%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .zjh {
+		position: absolute;
+		top: 25.7%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .mz {
+		position: absolute;
+		top: 34.2%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .lx {
+		position: absolute;
+		top: 42.8%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .zjdm {
+		position: absolute;
+		top: 50.8%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .qsrq {
+		position: absolute;
+		top: 59%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .jzrq {
+		position: absolute;
+		top: 67%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .bm {
+		position: absolute;
+		top: 75.5%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .rq {
+		position: absolute;
+		top: 84%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+
+	.header_dl .zt {
+		position: absolute;
+		top: 92%;
+		left: 4.1%;
+		font-size: 24px;
+	}
+}
+
+/*屏幕小于750px时*/
+@media only screen and (max-width: 750px) {
+	.header_dl .title {
+		position: absolute;
+		top: 9.5%;
+		font-size: 22px;
+		width: 100%;
+		font-weight: 500;
+		color: #000;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header_dl .mc {
+		position: absolute;
+		top: 17.5%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .zjh {
+		position: absolute;
+		top: 25.7%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .mz {
+		position: absolute;
+		top: 34.2%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .lx {
+		position: absolute;
+		top: 42.8%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .zjdm {
+		position: absolute;
+		top: 50.8%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .qsrq {
+		position: absolute;
+		top: 59%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .jzrq {
+		position: absolute;
+		top: 67%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .bm {
+		position: absolute;
+		top: 75.5%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .rq {
+		position: absolute;
+		top: 84%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .zt {
+		position: absolute;
+		top: 92%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+}
+
+/*屏幕小于414px时*/
+@media only screen and (max-width: 414px) {
+	.header_dl .title {
+		position: absolute;
+		top: 9.5%;
+		font-size: 22px;
+		width: 100%;
+		font-weight: 500;
+		color: #000;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header_dl .mc {
+		position: absolute;
+		top: 17.5%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .zjh {
+		position: absolute;
+		top: 25.7%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .mz {
+		position: absolute;
+		top: 34.2%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .lx {
+		position: absolute;
+		top: 42.8%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .zjdm {
+		position: absolute;
+		top: 50.8%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .qsrq {
+		position: absolute;
+		top: 59%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .jzrq {
+		position: absolute;
+		top: 67%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .bm {
+		position: absolute;
+		top: 75.5%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .rq {
+		position: absolute;
+		top: 84%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+	.header_dl .zt {
+		position: absolute;
+		top: 92%;
+		left: 4.1%;
+		font-size: 17px;
+	}
+
+}
